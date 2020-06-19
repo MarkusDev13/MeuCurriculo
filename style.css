@@ -47,7 +47,7 @@ header {
 
 header img {
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 15px;
     width: 70px;
     border-radius: 10px 0px 10px 0px;
@@ -58,7 +58,7 @@ header .title {
     display: flex;
     flex-direction: column;
     margin-left: 11px;
-    width: 45%;
+    width: 100%;
 }
 
 header .title h1 {
@@ -66,6 +66,7 @@ header .title h1 {
     font-size: 25px;
     font-weight: 100;
     color: rgb(37, 37, 37);
+    width: 100%;
 }
 
 header .title h3 {
@@ -101,6 +102,10 @@ main .main-content article {
 main aside {
     width: 35%;
     background-color: rgb(37, 37, 37);
+}
+
+main aside article {
+    margin-right: 20px;
 }
 
 main aside .skill-range {
