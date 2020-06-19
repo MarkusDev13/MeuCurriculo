@@ -43,7 +43,7 @@ header{
    
 }
 header img{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 30px;
     margin-bottom: 15px;
     width: 70px;
@@ -56,7 +56,7 @@ header .title{
     display: flex;
     flex-direction: column;
     margin-left: 11px;
-    width: 45s%;
+    width: 45%;
 
 }
 header .title h1{
@@ -100,7 +100,15 @@ main aside{
     width: 35%;
     background-color:rgb(37, 37, 37);
 
+
 }
+
+main aside .skill-range{
+  
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+}
+
 main aside .skill-range-html{
     width: 70%;
     height: 10px;
@@ -112,7 +120,7 @@ main aside .skill-range-css{
     background-color: aqua;
 }
 main aside .skill-range-js{
-    width: 50%;
+    width: 60%;
     height: 10px;
     background-color: aqua;
 }
@@ -125,4 +133,49 @@ main aside .skill-range-ing{
     width: 80%;
     height: 10px;
     background-color: aqua;
+}
+
+/*Responsividade*/
+@media (max-width:1000px){
+   
+
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main .main-content article{
+        margin-bottom: 0;
+    }
+    main aside{
+        width: 100%;
+      
+    }
+    main aside article{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    main aside .skill-range-ing{
+       margin-bottom: 30px;
+    }
+
+}
+@media (max-width:600px){
+    header .title h1{
+        font-size: 15px;
+    }
+    header .title h3{
+        font-size: 10px;
+    }
+}
+@media(max-width:500px){
+    header{
+        margin-top: 0;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
 }
