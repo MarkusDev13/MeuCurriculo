@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat',sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: gray;
+}
+h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    color: aqua;
+}
+p{
+    margin-top: 5px;
+    line-height: 18px; 
+    font-size: 11px;
+    margin-top: 5px;
+}
+ul li{
+    margin-top: 8px;
+    display: flex;   
+    font-size: 11px;
+   
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:        9px 7px 5px rgba(50, 50, 50, 0.77);
+   
+}
+header img{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width: 70px;
+    border-radius: 10px 0px 10px 0px;
+    border: 2px solid rgb(37, 37, 37);
+
+
+}
+header .title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 11px;
+    width: 45s%;
+
+}
+header .title h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(37, 37, 37);
+
+}
+header .title h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: rgb(37, 37, 37);
+}
+
+main{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         4.4px   9px 7px 5px rgba(50, 50, 50, 0.77);
+    
+}
+main .main-content{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+}
+main .main-content article{
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+main aside{
+    width: 35%;
+    background-color:rgb(37, 37, 37);
+
+}
+main aside .skill-range-html{
+    width: 70%;
+    height: 10px;
+    background-color: aqua;
+}
+main aside .skill-range-css{
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+}
+main aside .skill-range-js{
+    width: 50%;
+    height: 10px;
+    background-color: aqua;
+}
+main aside .skill-range-phs{
+    width: 75%;
+    height: 10px;
+    background-color: aqua;
+}
+main aside .skill-range-ing{
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+}
