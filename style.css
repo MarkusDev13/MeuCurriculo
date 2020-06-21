@@ -117,30 +117,45 @@ main aside .skill-range-html {
     width: 70%;
     height: 10px;
     background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
 }
 
 main aside .skill-range-css {
     width: 80%;
     height: 10px;
     background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
 }
 
 main aside .skill-range-js {
     width: 60%;
     height: 10px;
     background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
 }
 
 main aside .skill-range-phs {
     width: 75%;
     height: 10px;
     background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
 }
 
 main aside .skill-range-ing {
     width: 80%;
     height: 10px;
     background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
 }
 
 
