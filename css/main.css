@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 4.4px 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+main .main-content {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+}
+
+main .main-content article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+
+/* aside */
+
+main aside {
+    width: 35%;
+    background-color: rgb(37, 37, 37);
+}
+
+main aside article {
+    margin-right: 20px;
+}
+
+main aside .skill-range {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+main aside .skill-range-html {
+    width: 70%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+main aside .skill-range-css {
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+main aside .skill-range-js {
+    width: 60%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+main aside .skill-range-phs {
+    width: 75%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+main aside .skill-range-ing {
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
