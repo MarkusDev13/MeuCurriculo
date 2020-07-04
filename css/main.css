@@ -13,11 +13,18 @@ main .main-content {
     width: 100%;
 }
 
-main .main-content article {
+main .main-content section {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
+}
+
+.my-profile {
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 11px;
+    margin-top: 5px;
 }
 
 
@@ -28,8 +35,21 @@ main aside {
     background-color: rgb(37, 37, 37);
 }
 
-main aside article {
+main aside section {
     margin-right: 20px;
+}
+
+main aside ul li.icons {
+    display: flex;
+}
+
+main aside .space-icon {
+    padding-right: 10px;
+}
+
+main aside ul .skills {
+    display: flex;
+    flex-direction: column;
 }
 
 main aside .skill-range {

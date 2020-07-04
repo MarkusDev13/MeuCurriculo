@@ -15,19 +15,12 @@ body {
 h2 {
     font-size: 18px;
     letter-spacing: 3px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: aqua;
-}
-
-p {
-    margin-top: 5px;
-    line-height: 18px;
-    font-size: 11px;
-    margin-top: 5px;
 }
 
 ul li {
     margin-top: 8px;
-    display: flex;
     font-size: 11px;
+    list-style: none;
 }

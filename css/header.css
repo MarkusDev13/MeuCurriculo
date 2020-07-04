@@ -28,7 +28,7 @@ header .title {
 }
 
 header .title h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 100;
     color: rgb(37, 37, 37);
@@ -36,7 +36,7 @@ header .title h1 {
 }
 
 header .title h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
     font-size: 15px;
     letter-spacing: 4px;

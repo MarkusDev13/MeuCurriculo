@@ -1,4 +1,4 @@
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
     main {
         display: flex;
         flex-direction: column;
@@ -8,18 +8,19 @@
     }
     main aside {
         width: 100%;
+        padding-bottom: 20px;
     }
-    main aside article {
+    main aside section {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-    main aside .skill-range-ing {
-        margin-bottom: 30px;
+    main aside section h2 {
+        margin-top: 10px;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     header .title h1 {
         font-size: 15px;
     }
@@ -28,7 +29,7 @@
     }
 }
 
-@media(max-width:500px) {
+@media (max-width: 500px) {
     header {
         margin-top: 0;
         width: 100%;
