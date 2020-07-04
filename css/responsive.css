@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
     }
-    main .main-content article {
+    main .main-content section {
         margin-bottom: 0;
     }
     main aside {
@@ -15,8 +15,11 @@
         margin-left: auto;
         margin-right: auto;
     }
-    main aside section h2 {
-        margin-top: 10px;
+    main aside .contat {
+        margin-bottom: 20px;
+    }
+    main aside .contant h2 {
+        margin-top: 0;
     }
 }
 
