@@ -9,7 +9,21 @@ html {
 }
 
 body {
-    background-color: gray;
+    background: linear-gradient(45deg, #5a5959, #41b4d4, #1be6c4, aqua);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h2 {
