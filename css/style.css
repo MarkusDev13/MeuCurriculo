@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -26,15 +27,25 @@ body {
     }
 }
 
+.container {
+    width: 60%;
+    margin: 1% auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 'header aside' 'main aside';
+    box-shadow: 20px 20px 0px rgba(240, 248, 255, 0.521);
+    transition: 0.5s;
+}
+
 h2 {
-    font-size: 18px;
+    width: 90%;
+    font-size: 0.9rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    color: aqua;
+    padding-top: 20px;
 }
 
 ul li {
     margin-top: 8px;
-    font-size: 11px;
+    font-size: 0.65rem;
     list-style: none;
 }

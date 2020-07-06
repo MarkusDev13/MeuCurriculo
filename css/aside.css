@@ -1,0 +1,72 @@
+aside {
+    background-color: rgb(37, 37, 37);
+    padding-left: 3%;
+    grid-area: aside;
+}
+
+.sec-aside {
+    padding-top: 15px;
+}
+
+aside ul li.icons {
+    display: flex;
+}
+
+aside .space-icon {
+    padding-right: 10px;
+}
+
+aside ul .skills {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .skill-range {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+aside .skill-range-html {
+    width: 90%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+aside .skill-range-css {
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+aside .skill-range-js {
+    width: 60%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+aside .skill-range-phs {
+    width: 75%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
+
+aside .skill-range-ing {
+    width: 80%;
+    height: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 9px;
+    text-align: right;
+}
